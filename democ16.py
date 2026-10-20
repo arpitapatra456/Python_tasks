@@ -1,0 +1,6 @@
+fobj = open('inputFile', 'r')
+wobj = open('resultFile', 'w')
+s = fobj.read()
+wobj.write(s)
+fobj.close()
+wobj.close()
